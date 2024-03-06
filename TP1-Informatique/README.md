@@ -1,4 +1,4 @@
-# TP n°0 : Initiation à l'informatique
+# TP n°1 : Initiation à l'informatique
 
 Ce premier TP, permet de décrire les notions fondamentales en informatique.
 

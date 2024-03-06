@@ -1,4 +1,4 @@
-# TP n°1 : Classes et objets
+# TP n°3 : Classes et objets
 
 Dans ce TP, on s'intéresse  à l'utilisation d'objets usuels python. Les compétences travaillées durant cette activité sont les suivantes : 
 - Comprendre le typage dynamique

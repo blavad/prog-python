@@ -1,4 +1,4 @@
-# TP n°5 : Algorithmie en python
+# TP n°4 : Algorithmie en python
 
 Dans ce TP, on s'intéresse aux fonctions en python. Les compétences travaillées durant cette activité sont les suivantes :
 
