@@ -1,4 +1,4 @@
-# Programmation Python, 2023
+# Programmation Python, 2024
 
 Ce cours a pour objectif d'initier les étudiants à l'informatique et au langage de programmtion python.
 
@@ -15,4 +15,4 @@ Pour bien apprendre pendant ces travaux pratiques il est conseillé d'avoir les 
 
 ## Et ensuite ?
 
-Si votre environnement de travail est près. Vous pouvez lire [le TP n°0 sur l'informatique](./TP1-Informatique/README.md).
+Si votre environnement de travail est près. Vous pouvez lire [le TP n°1 d'introduction à l'informatique](./TP1-Informatique/README.md).
