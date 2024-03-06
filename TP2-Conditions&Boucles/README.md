@@ -36,3 +36,7 @@ Dans ce TP, on s'intéresse aux conditions et aux boucles en python. Les compét
 1.  Ecrire un programme qui lit des caractères et s’arrête à la lecture d’un '.' ; ce programme compte et affiche le nombre de caractères lus, le nombre de lettres minuscules ainsi que le nombre de chiffres.
 
     Modifier le programme pour n’autoriser la saisie que de maximum 50 caractères.
+
+## Déjà terminé ?
+
+Vous pouvez dès à présent commencer [le TP n°3 sur la notion d'objet en python](../TP3-ClassesObjets/README.md).

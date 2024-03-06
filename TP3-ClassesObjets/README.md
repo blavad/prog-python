@@ -127,4 +127,4 @@ Définir deux ensembles $A = \{3, 7, 8, 10\}$ et $B = \{2, 7, 10\}$, puis affich
 
 ## Déjà terminé ?
 
-Vous pouvez dès à présent commencer [le TP n°3 sur l'encapsulation](../TP3-Encapsulation/README.md).
+Vous pouvez dès à présent commencer [le TP n°4 sur l'algorithmie en python](../TP4-Algorithmie/README.md).

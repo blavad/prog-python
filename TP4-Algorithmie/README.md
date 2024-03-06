@@ -64,3 +64,7 @@ Pour chacune des fonctions ci-dessous, implémentez la fonction dans le fichier 
 2.  Écrire une fonction `inverseChaine` qui prend une chaîne de caractères en paramètre et renvoie cette chaîne inversée.
 3.  Définissez une fonction `compterVoyelles` qui prend une chaîne de caractères en paramètre et renvoie le nombre de voyelles présentes dans la chaîne.
 4.  Écrire une fonction `intersectionTableaux` qui prend deux tableaux d'entiers en paramètres et renvoie un nouveau tableau contenant les éléments communs aux deux tableaux.
+
+## Déjà terminé ?
+
+Vous pouvez dès à présent commencer [le TP n°5 (Projet)](../TP5-Projet/README.md).
