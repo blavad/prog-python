@@ -18,14 +18,14 @@ Dans ce TP, on s'intéresse aux conditions et aux boucles en python. Les compét
 
 3. Ecrire un programme qui lit trois valeurs entières (a, b et c) au clavier et qui affiche la plus grande des trois valeurs.
 
-
 ## Partie III : Boucles
 
 1.  Ecrire un programme qui lit un entier n, puis lit n nombres réels et affiche le plus grand de ces réels.
 
 1.  Ecrire un programme qui affiche une table de multiplication.
 
-1. Ecrire un programme qui calcule et affiche les carrés des 10 premiers entiers :
+1.  Ecrire un programme qui calcule et affiche les carrés des 10 premiers entiers :
+
     - d'abord avec une boucle **while**
     - puis en utilisant une boucle **for**
 
