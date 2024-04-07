@@ -12,7 +12,3 @@ Pour bien apprendre pendant ces travaux pratiques il est conseillé d'avoir les 
 - un accès à un invite de commande (terminal Linux, Windows Powershell)
 - un éditeur de texte. Il existe des environnements de développements très performants que vous serez amené à utiliser en entreprise. Pourquoi ne pas les utiliser dès à présent ?
   - `Visual Studio Code`, `PyCharm`, `SublimeText`, ...
-
-## Et ensuite ?
-
-Si votre environnement de travail est près. Vous pouvez lire [le TP n°1 d'introduction à l'informatique](./TP1-Informatique/README.md).

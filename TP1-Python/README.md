@@ -101,4 +101,4 @@ On souhaite désormais utiliser la fonction `addition` dans notre programme `__m
 
 ## Déjà terminé ?
 
-Vous pouvez dès à présent commencer [le TP n°2 sur les conditions et les boucles en python](../TP2-Condition&Boucles/README.md).
+Vous pouvez dès à présent commencer [le TP n°2 sur les classes et les objets en python](../TP2-ClassesObjets/README.md).
