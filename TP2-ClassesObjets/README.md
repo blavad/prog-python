@@ -1,4 +1,4 @@
-# TP n°3 : Classes et objets
+# TP n°2 : Classes et objets
 
 Dans ce TP, on s'intéresse à l'utilisation d'objets usuels python. Les compétences travaillées durant cette activité sont les suivantes :
 
@@ -15,11 +15,12 @@ Dans ce TP, on s'intéresse à l'utilisation d'objets usuels python. Les compét
 **Manipuler nos premiers objets**
 
 1. Commencer par regarder cette [vidéo sur les notions de variables, objets et typage dynamique en python](https://www.youtube.com/watch?v=vSsTKNCSKnU).
-1. Lancer l'interpréteur python en mode interactif
+2. Lancer l'interpréteur python en mode interactif
 
 Dans les versions récentes de python, tout est objet. En effet, les types intégrés à python héritent tous de la même classe parente `object`. C'est le cas notamment de `bool`, `int`, `float`, `str`, `list`, `dict`, `set`, etc.
 
-3. Exécuter les instructions suivantes:
+3. Dans un dossier nommé `TP2-ClassesObjets`, ouvrir l'interpréteur en mode interactif `python3`.
+4. Exécuter les instructions suivantes:
 
    Instancier la classe objet:
 
@@ -54,7 +55,7 @@ Dans les versions récentes de python, tout est objet. En effet, les types inté
 
    A quoi servent les méthodes `__eq__`, `__dir__`, `__ge__`, `__str__`, `__repr__`, `__sizeof__`, `__getattribute__` et `__hash__` ? 🚩
 
-1. Réaliser les mêmes opérations appliquées à une chaîne de caracètes.
+5. Réaliser les mêmes opérations appliquées à une chaîne de caracètes.
 
    A quoi servents les méthodes `upper`, `lower`, `find`, `split` et `join` ? 🚩
 
@@ -66,7 +67,9 @@ Dans cette partie : 🚩 = commande + résultat
 
 **Manipuler des listes**
 
-1. Définir la liste `liste1 = [11, 40, 18, 5, 56]`, puis effectuer les actions suivantes :
+1. Dans le dossier `TP2-ClassesObjets`, créer un fichier `listes.py`
+
+2. Définir la liste `liste1 = [11, 40, 18, 5, 56]`, puis effectuer les actions suivantes :
 
    - ajouter l’élément 12 à la liste et afficher la liste 🚩
    - trier et afficher la liste
@@ -78,35 +81,22 @@ Dans cette partie : 🚩 = commande + résultat
    - afficher la sous-liste du 3e élément à la fin de la liste
    - afficher le dernier élément en utilisant l’indiçage négatif. 🚩
 
-1. Utiliser la fonction `range()` pour créer :
+3. Utiliser la fonction `range()` pour créer :
 
    - la liste des entiers de 0 à 14 🚩
    - la liste des entiers de 11 à 17
    - la liste des entiers de 3 à 120 par pas de 3. 🚩
 
-1. Utiliser une liste en compréhension pour:
+4. Utiliser une liste en compréhension pour:
    - ajouter 3 à chaque élément de la liste `[5, 8, 10]`. 🚩
    - ajouter 3 à chaque élément d'une liste de 0 à 10, mais seulement si l'élément est supérieur ou égal à 3. 🚩
    - définir la liste des nombres flottants compris entre -1 et 1 avec un décalage de 0.01.
    - créer la liste `['pt', 'ph', 'py', 'ot', 'oh', 'oy']` à partir des chaînes `'po'` et `'thy'`.
      **_Aide_** : on pourra utiliser deux boucles for imbriquées.
 
-<!--
-
-**Manipuler des ensembles**
-
-Définir deux ensembles $A = \{3, 7, 8, 10\}$ et $B = \{2, 7, 10\}$, puis affichez les résultats suivants :
-- le test d'appartenance de 8 à l'ensemble A 🚩
-- le test d'appartenance de 3 à l'ensemble B
-- les ensembles $A - B$ et $B-A$
-- l'ensemble $A \cup B$ (l'union) 🚩
-- l'ensemble $A \cap B$ (l'intersection) 🚩
-- le test d'inclusion du sous-ensemble $\{8, 10\}$ dans l'ensemble A -->
-
-<!--
-***Aide*** : on pourra afficher toutes les méthodes de la classe `set` grâce à la méthode built-in `__dir__`  -->
-
 **Manipuler des dictionnaires**
+
+1. Dans le dossier `TP2-ClassesObjets`, créer un fichier `dict.py`
 
 1. Définir les dictionnaires suivants `shape1 = {'shape': 'circle', 'position': {'x': 10, 'y': 10}, 'radius': 4}`, puis effectuer les actions suivantes:
 
@@ -131,6 +121,21 @@ Définir deux ensembles $A = \{3, 7, 8, 10\}$ et $B = \{2, 7, 10\}$, puis affich
      - 1ère méthode : utiliser l'opérateur union `d1 | d2`
      - 2ème méthode : mettre à plat le contenu des dictionnaires existants dans un dictionnaire en cours de construction grâce à l'opérateur de mise à plat `**d`.
 
+**Manipuler des ensembles**
+
+1. Dans le dossier `TP2-ClassesObjets`, créer un fichier `ensembles.py`
+
+1. Définir deux ensembles $A = \{3, 7, 8, 10\}$ et $B = \{2, 7, 10\}$, puis affichez les résultats suivants :
+
+   - le test d'appartenance de 8 à l'ensemble A 🚩
+   - le test d'appartenance de 3 à l'ensemble B
+   - les ensembles $A - B$ et $B-A$
+   - l'ensemble $A \cup B$ (l'union) 🚩
+   - l'ensemble $A \cap B$ (l'intersection) 🚩
+   - le test d'inclusion du sous-ensemble $\{8, 10\}$ dans l'ensemble A
+
+**_Aide_** : on pourra afficher toutes les méthodes de la classe `set` grâce à la méthode built-in `__dir__`
+
 ## Déjà terminé ?
 
-Vous pouvez dès à présent commencer [le TP n°4 sur l'algorithmie en python](../TP4-Algorithmie/README.md).
+Vous pouvez dès à présent commencer [le TP n°3 sur les conditions et les boucles](../TP3-Conditions&Boucles/README.md).

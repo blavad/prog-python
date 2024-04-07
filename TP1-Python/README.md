@@ -8,13 +8,6 @@ Dans ce TP, on s'intéresse aux fondements du langage python. Les compétences t
 - Comprendre et utiliser le gestionnaire de paquets `pip`
 - Comprendre la notion d'objet en python
 
-## Partie 0 : Mise en place
-
-- Cloner ce repo : `git clone https://github.com/blavad/prog-python.git`
-- Ouvrir un terminal à l'emplacement `prog-python/TP1-Python`
-
-Ce dossier est le votre pendant tout le TP. Toutes les manipulations doivent être faites à l'intérieur. Il contient déjà certains fichiers qui seront à lire et/ou compléter durant le TP.
-
 ## Partie I : Interpréteur Python
 
 15min
@@ -25,7 +18,7 @@ Ce dossier est le votre pendant tout le TP. Toutes les manipulations doivent êt
 2. Quelle est sa version par défaut ?
    - S'il s'agit de la version 2, vérifier que `python3` est également installé
    - Nous n'utiliserons **désormais plus que la version 3**
-3. Lancer l'interpréteur en mode interactif pour calculer $3.5^12$. 🚩
+3. Lancer l'interpréteur en mode interactif pour calculer $3.5^{12}$. 🚩
 4. Fermer l'interpréteur en mode interactif.
 
 ## Partie II : Gestionnaire de paquets et environnements virtuels
@@ -34,12 +27,12 @@ Ce dossier est le votre pendant tout le TP. Toutes les manipulations doivent êt
 
 **Environnement virtuel**
 
-1. Dans le dossier `TP1-Python`
+1. Créer un dossier `TP1-Python` et ouvrir un terminal à cet emplacement
 1. Créer un environnement virtuel python avec le nom `.venv`.
 1. Analyser le contenu du dossier `.venv`. Que contient-il ? 🚩
 1. Activer cet environnement virtuel.
 1. Afficher la liste des paquets installés dans l'environnement virtuel.
-1. Comparer à la liste des paquets python installés sur votre machine.
+1. Comparer à la liste des paquets python installés sur votre machine 🚩
 1. Installer les paquets `numpy` et `plotly`.
 1. Afficher de nouveau la liste des paquets installés dans l'environnement virtuel.
 1. Créer le fichier `requirements.txt` qui contient les dépendances de notre package.
@@ -51,9 +44,9 @@ Ce dossier est le votre pendant tout le TP. Toutes les manipulations doivent êt
 
 **Premiers modules**
 
-1. Le dossier `tp1` est notre **package**
-2. Dans le dossier `tp1` créer un autre dossier nommé `tp1` et naviguer dedans (ce dossier contient le code source de notre package)
-3. Dans le dossier `tp1/tp1` créer le fichier `main.py` avec le contenu:
+1. Le dossier `TP1-Python` est notre **package**
+2. Dans le dossier `TP1-Python` créer un autre dossier nommé `tp1` et naviguer dedans (ce dossier contient le code source de notre package)
+3. Dans le dossier `TP1-Python/tp1` créer le fichier `main.py` avec le contenu:
    ```python
     print("> ------------------------------")
     print("> Module main")
@@ -64,7 +57,7 @@ Ce dossier est le votre pendant tout le TP. Toutes les manipulations doivent êt
    > on utilisera pour cela la commande `python -m tp1.main`.
 6. Exécuter la commande `python -m tp1`. Que se passe-t-il ? 🚩
 7. Renommer le fichier `main.py` en `__main__.py` et réessayer. Conclure. 🚩
-8. Dans le dossier `tp1/tp1/math` créer le module `addition.py` avec le contenu:
+8. Dans le dossier `TP1-Python/tp1/math` créer le module `addition.py` avec le contenu:
 
    ```python
    def addition(a, b):
