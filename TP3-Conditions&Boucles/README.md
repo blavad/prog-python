@@ -6,11 +6,7 @@ Dans ce TP, on s'intéresse aux conditions et aux boucles en python. Les compét
 - Ecrire des conditions en python
 - Ecrire des boucles en python
 
-## Partie I : Input / Output
-
-1. Ecrire un programme python qui lit une valeur entière au clavier, la multiplie par 2 et affiche le résultat dans le terminal.
-
-## Partie II : Conditions
+## Partie I : Input / Output et Conditions
 
 1. Ecrire un programme qui lit un nombre et affiche '+', '0', '-' selon que le nombre est positif, nul ou négatif.
 
@@ -18,7 +14,7 @@ Dans ce TP, on s'intéresse aux conditions et aux boucles en python. Les compét
 
 3. Ecrire un programme qui lit trois valeurs entières (a, b et c) au clavier et qui affiche la plus grande des trois valeurs.
 
-## Partie III : Boucles
+## Partie II : Boucles
 
 1.  Ecrire un programme qui lit un entier n, puis lit n nombres réels et affiche le plus grand de ces réels.
 
