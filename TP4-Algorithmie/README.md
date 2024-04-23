@@ -46,25 +46,6 @@ Pour chacune des fonctions ci-dessous, implémentez la fonction dans le fichier 
 
 3. Définir une fonction `decompoFacteursPremiers` qui prend un entier en paramètre et renvoie une map dont les clés sont les facteurs premiers et les valeurs sont les puissances associées à ces facteurs.
 
-## Partie II : Chaînes de caractères
-
-### Préparation
-
-Créer 2 fichiers distincts :
-
-- `chaine.py` : ce fichier contiendra l'implémentation des fonctions
-- `partieIII.py` : ce fichier est le fichier principal. Il importera les fonctions afin de les utiliser sur les valeurs de votre choix.
-
-### Exercice
-
-Pour chacune des fonctions ci-dessous, implémentez la fonction dans le fichier `chaine.py` et testez la dans le fichier `partieIII.py`.
-
-1.  Écrire une fonction `occurrences` qui prend une chaîne de caractères et un caractère en paramètres, puis renvoie le nombre d'occurrences de ce caractère dans la chaîne.
-
-2.  Écrire une fonction `inverseChaine` qui prend une chaîne de caractères en paramètre et renvoie cette chaîne inversée.
-3.  Définissez une fonction `compterVoyelles` qui prend une chaîne de caractères en paramètre et renvoie le nombre de voyelles présentes dans la chaîne.
-4.  Écrire une fonction `intersectionTableaux` qui prend deux tableaux d'entiers en paramètres et renvoie un nouveau tableau contenant les éléments communs aux deux tableaux.
-
 ## Déjà terminé ?
 
 Vous pouvez dès à présent commencer [le TP n°5 (Projet)](../TP5-Projet/README.md).
